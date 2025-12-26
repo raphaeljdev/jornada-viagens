@@ -1,5 +1,18 @@
+:root {
+  --background-primary-color: #ffffff;
+  --background-secondary-color: #f5f5f5;
+  --background-tertiary-color: #000000;
+
+  --buton-primary-color: #8F0101;
+  --buton-secondary-color: #B81515;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
