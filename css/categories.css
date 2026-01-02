@@ -19,9 +19,7 @@
 }
 
 .categories-cards .card h3 {
-  font-size: 28px;
   margin-top: 24px;
-  font-weight: var(--title-weight);
 }
 
 .categories-cards .card.single-line {
