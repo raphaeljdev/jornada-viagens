@@ -5,3 +5,38 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@media screen and (min-width: 768px){
+  .bottom-hero-img {
+  background: url(../img/bottom-hero-tablet.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .bottom-hero-img {
+  background: url(../img/bottom-hero-desktop.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 400px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom-hero-img {
+  background: url(../img/bottom-hero-desktop.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 600px;
+}
+}
+
+@media screen and (min-width: 1818px) {
+  .bottom-hero-img {
+  background: url(../img/bottom-hero-desktop.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 700px;
+}
+}
