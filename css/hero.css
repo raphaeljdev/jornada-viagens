@@ -21,6 +21,43 @@
   text-align: center;
 }
 
+/* BLOG */
+
+.blog.hero {
+  margin-bottom: 88px;
+}
+
+.blog .hero-img {
+  height: 460px;
+  background: url(../img/blog-assets/blog-hero-image-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.blog .hero-content {
+  padding: 81px 24px;
+}
+
+.blog .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+
+.blog .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.blog .hero-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: #ffffff;
+  line-height: 32px;
+}
+
 /* PACOTES DE VIAGENS */
 .travel-packages.hero {
   margin-bottom: 88px;
