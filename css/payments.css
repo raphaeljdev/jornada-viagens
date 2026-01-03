@@ -1,0 +1,57 @@
+.payments .image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    height: 460px;
+    margin-top: 24px;
+}
+
+.payments .image-gallery .image.bag {
+    background: url(../img/gallery-1-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image-gallery .image.passport {
+    background: url(../img/gallery-2-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image-gallery .image.people {
+    background: url(../img/gallery-3-mobile.png) no-repeat;
+    background-size: cover;
+}
+
+.payments .image-gallery .image.colspan-2 {
+    grid-column: span 2;
+}
+
+@media screen and (min-width:768px){
+    .payments .image-gallery .image.first {
+        background: url(../img/gallery-1-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .image-gallery .image.second {
+        background: url(../img/gallery-2-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .payments .image-gallery .image.third {
+        background: url(../img/gallery-3-tablet.png) no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .payments .text-content {
+        width: 360px;
+    }
+    .payments .image-gallery {
+        width: 790px;
+    }
+}
+
+.payments .content-container {
+    display: flex;
+    justify-content: space-between;
+}
