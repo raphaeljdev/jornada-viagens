@@ -1,0 +1,22 @@
+.forms {
+  padding: 0 24px;
+}
+
+.forms .section-title {
+  margin-bottom: 52px;
+}
+
+.forms .section-title h2 {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+}
+
+.forms article {
+  margin-bottom: 56px;
+}
+
+.forms article p {
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+}
