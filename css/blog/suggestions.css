@@ -3,6 +3,27 @@
   margin-top: 88px;
 }
 
+.sugestion-card .card-image.osaka-image {
+  background: url(../../img/blog-assets/osaka-suggestion-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.sugestion-card .card-image.hiroshima-image {
+  background: url(../../img/blog-assets/hiroshima-suggestion-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.sugestion-card .card-image.kyoto-image {
+  background: url(../../img/blog-assets/kyoto-suggestion-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
 .sugestion-card .card-content {
   display: flex;
   flex-direction: column;
@@ -25,4 +46,62 @@
 .sugestion-card .button {
   width: 100%;
   margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .sugestions {
+  padding: 0 60px;
+}
+
+.sugestion-card .card-image.osaka-image {
+  background: url(../../img/blog-assets/osaka-suggestion-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.sugestion-card .card-image.hiroshima-image {
+  background: url(../../img/blog-assets/hiroshima-suggestion-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.sugestion-card .card-image.kyoto-image {
+  background: url(../../img/blog-assets/kyoto-suggestion-tablet.png) no-repeat;
+  background-size: cover;
+}
+
+.sugestions .sugestion-card .button {
+  width: 50%;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .sugestions {
+  padding: 0 120px;
+}
+
+.sugestion-card {
+  width: 50%;
+}
+
+.sugestions-cards {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.sugestion-card .card-image.osaka-image {
+  background: url(../../img/blog-assets/osaka-suggestion-desk.png) no-repeat;
+  background-size: cover;
+}
+
+.sugestion-card .card-image.hiroshima-image {
+  background: url(../../img/blog-assets/hiroshima-suggestion-desk.png) no-repeat;
+  background-size: cover;
+}
+
+.sugestion-card .card-image.kyoto-image {
+  background: url(../../img/blog-assets/kyoto-suggestion-desk.png) no-repeat;
+  background-size: cover;
+}
+
+
 }
