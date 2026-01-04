@@ -1,0 +1,114 @@
+.about-tokyo {
+  width: 312px;
+}
+
+.section-title {
+  font-weight: var(--title-weight);
+  font-size: 16px;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin-bottom: 32px;
+}
+
+.arrival-container {
+  margin-top: 48px;
+}
+
+.arrival-container h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.arrival-container p {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.bank-image {
+  background: url(../../img/blog-assets/tokyo-bank-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.city-view {
+  background: url(../../img/blog-assets/tokyo-city-view-mobile.png) no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.city-view-description {
+  font-size: 2px;
+}
+
+@media screen and (min-width: 768px) {
+    .about-tokyo {
+    width: 648px;
+  }
+
+  .tokyo-arrival .tokyo-info {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .tokyo-arrival .tokyo-info .container-info {
+    width: 312px;
+  }
+
+ .tokyo-arrival .tokyo-info .bank-image {
+  background: url(../../img/blog-assets/tokyo-bank-mobile.png) no-repeat;
+  background-size: cover;
+  width: 312px;
+  height: 360px;
+}
+
+.city-view {
+  background: url(../../img/blog-assets/tokyo-city-view-tablet.png) no-repeat;
+  background-size: cover;
+}
+}
+
+@media screen and (min-width: 1024px) {
+  .about-tokyo {
+    width: 648px;
+  }
+
+  .city-view {
+  background: url(../../img/blog-assets/tokyo-city-view-desk.png) no-repeat;
+  background-size: cover;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .about-tokyo {
+    width: 1200px;
+  }
+
+  .tokyo-arrival .tokyo-info .container-info {
+    width: 588px;
+  }
+
+ .tokyo-arrival .tokyo-info .bank-image {
+  background: url(../../img/blog-assets/tokyo-bank-desk.png) no-repeat;
+  background-size: cover;
+  width: 588px;
+  height: 360px;
+}
+
+  .city-view {
+  background: url(../../img/blog-assets/tokyo-city-view-desk.png) no-repeat;
+  background-size: cover;
+}
+}
