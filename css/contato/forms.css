@@ -75,7 +75,17 @@
   width: 100%;
 }
 
+@media screen and (min-width: 768px) {
+  .forms {
+  padding: 0 60px;
+}
+}
 
+@media screen and (min-width: 1440px) {
+  .forms {
+  padding: 0 120px;
+}
+}
 
 
 
