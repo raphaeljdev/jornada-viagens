@@ -1,0 +1,45 @@
+
+.contato.hero .hero-img {
+  background: url(../../img/contato/entre-em-contato-desk.jpg) no-repeat;
+  background-size: cover;
+  margin-bottom: 88px;
+}
+
+.contato .hero-content {
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contato .hero-content h1 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: #ffffff;
+}
+
+.contato .hero-content hr {
+  width: 180px;
+  height: 4px;
+  border: none;
+  margin: 16px 0 32px;
+  background-color: var(--secondary-color);
+}
+
+.contato .hero-content p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  color: #ffffff;
+  line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .contato .hero-content {
+  padding: 294px 95px 182px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .contato .hero-content {
+  padding: 209px 741px 155px 120px;
+}
+}

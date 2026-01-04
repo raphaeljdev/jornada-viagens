@@ -38,7 +38,7 @@ button {
   box-sizing: border-box;
 }
 
-body {
+body, input, label {
   font-family: "Montserrat";
   color: var(--text-primary-color);
 }
