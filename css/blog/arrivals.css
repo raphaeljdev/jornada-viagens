@@ -1,4 +1,6 @@
-
+.arrival {
+  padding: 0 24px;
+}
 
 .section-title {
   font-weight: var(--title-weight);
@@ -51,9 +53,9 @@
 }
 
 @media screen and (min-width: 768px) {
-    .about-tokyo {
-    width: 648px;
-  }
+    .arrival {
+  padding: 0 60px;
+}
 
   .tokyo-arrival .tokyo-info {
     display: flex;
@@ -79,20 +81,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .about-tokyo {
-    width: 648px;
-  }
+  .arrival {
+  padding: 0 118px;
+}
 
   .city-view {
   background: url(../../img/blog-assets/tokyo-city-view-desk.png) no-repeat;
   background-size: cover;
+  width: 100%;
 }
 }
 
 @media screen and (min-width: 1440px) {
-  .about-tokyo {
-    width: 1200px;
-  }
+  .arrival {
+  padding: 0 118px;
+}
 
   .tokyo-arrival .tokyo-info .container-info {
     width: 588px;
@@ -101,7 +104,7 @@
  .tokyo-arrival .tokyo-info .bank-image {
   background: url(../../img/blog-assets/tokyo-bank-desk.png) no-repeat;
   background-size: cover;
-  width: 588px;
+  width: 100%;
   height: 360px;
 }
 
