@@ -1,6 +1,8 @@
-.contato .hero-img {
-  background: url(../../img/contato/entre-em-contato-mobile.jpg) no-repeat;
+
+.contato.hero .hero-img {
+  background: url(../../img/contato/entre-em-contato-desk.jpg) no-repeat;
   background-size: cover;
+  margin-bottom: 88px;
 }
 
 .contato .hero-content {
@@ -28,4 +30,16 @@
   font-weight: var(--text-weight);
   color: #ffffff;
   line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .contato .hero-content {
+  padding: 294px 95px 182px;
+}
+}
+
+@media screen and (min-width: 1440px) {
+  .contato .hero-content {
+  padding: 209px 741px 155px 120px;
+}
 }
