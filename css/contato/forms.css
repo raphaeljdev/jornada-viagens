@@ -20,3 +20,62 @@
   line-height: 28px;
   text-align: center;
 }
+
+.forms form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.forms form input {
+  border: 3px solid #D9D9D9;
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  outline: none;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 64px;
+  padding: 0 0 8px 0;
+}
+
+.forms form input:focus {
+  border: 3px solid var(--secondary-color);
+  border-top: transparent;
+  border-right: transparent;
+  border-left: transparent;
+  outline: none;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.text-area-assunto {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area-assunto label {
+  font-size: 20px;
+  color: #8c8c8c;
+  line-height: 32px;
+  font-weight: var(--text-weight);
+  margin-bottom: 8px;
+}
+
+.text-area-assunto textarea {
+  width: 100%;
+  border: 2px solid #D9D9D9;
+  border-radius: 8px;
+  height: 90px;
+  margin-bottom: 32px
+}
+
+.forms .button {
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+
+
+
