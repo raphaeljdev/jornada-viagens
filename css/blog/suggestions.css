@@ -1,0 +1,26 @@
+.sugestions {
+  padding: 0 24px 0 24px;
+  margin-top: 88px;
+}
+
+.sugestion-card .card-content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.sugestion-card .card-content h2 {
+  margin: 16px 0 8px 0;
+  font-size: 32px;
+  font-weight: var(--title-weight);
+}
+
+.sugestion-card .card-content p {
+  margin: 0;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.button {
+  width: 100%;
+}
